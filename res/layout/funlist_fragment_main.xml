@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+ 
+     >
+
+<include layout="@layout/titlebar_function"/>
+   
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="75dp"
+     >
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent"
+       
+       android:background="#F0F3F6"
+       android:orientation="vertical" >
+
+     <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout"
+     android:id="@+id/p_0"
+      >
+
+        <LinearLayout
+            android:id="@+id/v_0"
+            style="@style/single_layout" >
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aaf" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="资产查询" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/zichanchaxun" />
+            </LinearLayout>
+
+            <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+      <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout"
+        android:id="@+id/p_1"
+        >
+        <LinearLayout style="@style/single_layout"
+             android:id="@+id/v_1">
+             <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aad" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="资产录入" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/zichanluru" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+      <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout"
+     android:id="@+id/p_2"
+        >
+        <LinearLayout style="@style/single_layout"
+             android:id="@+id/v_2">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aaa" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="财务对账" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/caiwuduizhang" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+      <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout"
+        android:id="@+id/p_3"
+         >
+        <LinearLayout style="@style/single_layout"
+            android:id="@+id/v_3">
+                <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aac" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="单据审核" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/danjushenghe" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+       <LinearLayout style="@style/wrap_layout"
+           android:id="@+id/p_8"
+         >
+        <LinearLayout style="@style/single_layout"
+            android:id="@+id/v_8">
+                <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aak" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="单据查询" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/danjushenghe" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+     <LinearLayout style="@style/wrap_layout"
+         android:id="@+id/p_5"
+         >
+        <LinearLayout style="@style/single_layout"
+            android:id="@+id/v_5">
+           <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aah" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="图形分析" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/tuxinfenxi" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+     <LinearLayout style="@style/wrap_layout"
+         android:id="@+id/p_7"
+         >
+        <LinearLayout style="@style/single_layout"
+            android:id="@+id/v_7">
+             <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aaj" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="扫码清查" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/shaomaqincha" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+       <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout"
+        android:id="@+id/p_4"
+        >
+        <LinearLayout style="@style/single_layout"
+             android:id="@+id/v_4">
+                <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aaf" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="我的账户" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/gerenziliao" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+     
+     
+     <LinearLayout style="@style/wrap_layout"
+         android:id="@+id/p_6"
+         >
+        <LinearLayout style="@style/single_layout"
+            
+            android:id="@+id/v_6">
+             <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/aae" />
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="33dp"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:padding="10dp"
+                    android:text="系统设置" />
+
+                <TextView
+                    style="@style/txthint"
+                     android:paddingLeft="10dp"
+                    android:text="@string/xitongshezi" />
+            </LinearLayout>
+             <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

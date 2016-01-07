@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".AddProductActivity" >
+
+    <include
+        android:id="@+id/layout"
+          android:layout_alignParentTop="true"
+         layout="@layout/titlebar_add_product" />
+
+    <ListView
+       
+        android:id="@+id/lvConstantKeyValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scroll"
+        android:layout_below="@+id/layout"
+        android:layout_marginBottom="2dp" />
+
+    <ListView
+        android:id="@+id/lvKeyValue"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+           <!--<RelativeLayout
+                android:id="@+id/layoutAddNewKeyValue"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/product_info_item_selecter"
+                android:clickable="true" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="42dp"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:text="添加新属性"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="22dp"
+                    android:src="@drawable/awx" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="44dp"
+                    android:src="@drawable/vm" />
+            </RelativeLayout>-->
+		 
+            <RelativeLayout
+                android:id="@+id/submit"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/btn_submit"
+                
+                android:clickable="true" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="42dp"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:text="添加图片"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="22dp"
+                    android:src="@drawable/asy" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="44dp"
+                    android:src="@drawable/image1_add" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

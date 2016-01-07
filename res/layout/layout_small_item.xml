@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/product_info_item_selecter" >
+
+    <TextView
+        android:id="@+id/SmallClassName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="项名"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/layoutSmallClassItemMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SmallClassName"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/vm" />
+
+    <TextView
+        android:id="@+id/SmallClassId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SmallClassName"
+        android:layout_alignBottom="@+id/SmallClassName"
+        android:layout_marginRight="48dp"
+        android:layout_toLeftOf="@+id/layoutSmallClassItemMore"
+        android:text="值"
+        android:textColor="@color/normal"
+        android:textSize="15dp" />
+
+</RelativeLayout>

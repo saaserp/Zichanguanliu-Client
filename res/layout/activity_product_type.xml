@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    tools:context=".ProductTypeActivity" >
+<include 
+    android:id="@+id/title"
+    layout="@layout/titlebar_type"
+    android:layout_alignParentTop="true"/>
+    <ListView
+        android:layout_below="@+id/title"
+        android:id="@+id/lvAllType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bkgrd"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical"
+   
+    tools:context=".BigClassActivity" >
+	<include
+	    layout="@layout/titlebar_bigclass"
+	    />
+      <ListView
+                android:id="@+id/lstBigClass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:divider="@color/bkgrd"
+                android:dividerHeight="1px" >
+            </ListView>
+
+</LinearLayout>

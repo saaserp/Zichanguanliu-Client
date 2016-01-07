@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/product_info_item_selecter"
+    android:layout_marginTop="5dp"
+   
+     >
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="项名"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="值"
+         android:layout_alignParentRight="true"
+         android:textSize="15dp"
+       
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="25px"
+        />
+	
+</RelativeLayout>

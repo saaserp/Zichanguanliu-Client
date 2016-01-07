@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/pref_category"
+        android:title="快捷设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_push"
+            android:layout="@layout/pref_list_item_mid"
+            android:summaryOff="当前状态：不允许推送"
+            android:summaryOn="当前状态：已允许推送"
+            android:title="是否允许推送"
+            android:widgetLayout="@layout/pref_widget_checkbox" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/pref_category"
+        android:title="系统设置" >
+        <Preference
+            android:key="push_setting"
+            android:layout="@layout/pref_list_item_mid"
+            android:summary="点击修改"
+            android:title="推送设置"
+            android:widgetLayout="@layout/pref_widget_more" />
+       
+        <Preference
+            android:key="connect_setting"
+            android:layout="@layout/pref_list_item_mid"
+            android:summary="点击修改网络连接"
+            android:title="网络设置"
+            android:widgetLayout="@layout/pref_widget_more" />
+    
+  
+    </PreferenceCategory>
+  
+
+</PreferenceScreen>

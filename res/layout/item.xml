@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corners_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/adv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="广告标题"
+                android:textColor="#000000"
+                android:textSize="27sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/adv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adv_title"
+                android:layout_marginLeft="5dp"
+                android:text="￥0元/天"
+                android:textColor="#FF5E3a" />
+
+            <TextView
+                android:id="@+id/adv_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adv_price"
+                android:text="招聘:已招满" />
+
+            <TextView
+                android:id="@+id/adv_timeinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adv_body"
+                android:layout_marginLeft="5dp"
+                android:text="0分钟前" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adv_timeinfo"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/adv_placeimg"
+                    android:layout_width="16px"
+                    android:layout_height="16px"
+                    android:background="@drawable/locate" />
+
+                <TextView
+                    android:id="@+id/adv_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未知位置" />
+            </LinearLayout>
+
+            <TextView
+                
+                android:id="@+id/adv_note"
+            	android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/adv_body"
+                android:text="暂无备注" />
+            
+            <ImageView
+                
+                android:id="@+id/adv_flagimg"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/adv_flag"
+                
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bkgrd"
+    android:orientation="vertical"   
+    tools:context=".SmallClassActivity" >
+    <include
+        layout="@layout/titlebar_small"
+        />
+    
+  <com.qufei.adapter.RefreshListView
+                android:id="@+id/lstSmallClass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:divider="@color/bkgrd"
+                android:dividerHeight="1px" />        
+  
+
+</LinearLayout>

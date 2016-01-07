@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    <PreferenceCategory
+        android:layout="@layout/pref_category"
+        android:title="网络参数" >
+       <EditTextPreference
+        	android:key="prefer_address"
+        	android:layout="@layout/pref_list_item_top"
+            android:title="服务器ip地址"/>
+        <EditTextPreference
+        	android:key="socket_port"
+        	android:layout="@layout/pref_list_item_mid"
+            android:title="通讯端口"/>
+        <EditTextPreference
+        	android:key="http_port"
+        	android:layout="@layout/pref_list_item_bot"
+            android:title="http端口"/>
+        
+    </PreferenceCategory>
+  
+
+</PreferenceScreen>

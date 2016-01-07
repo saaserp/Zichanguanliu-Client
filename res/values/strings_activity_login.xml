@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_login">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in_register"><b>登  录</b></string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_forgot_password">找回密码</string>
+    <string name="login_progress_signing_in">登录中...&#8230;</string>
+    <string name="error_invalid_email">用户的账号格式输入错误</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">密码不正确！</string>
+    <string name="error_idfield_required">账号不能为空</string>
+    <string name="error_pwdfield_required">密码不能为空</string>
+
+</resources>

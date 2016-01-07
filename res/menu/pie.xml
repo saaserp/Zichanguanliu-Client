@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionToggleValues"
+        android:title="切换百分率">
+    </item>
+    <item
+        android:id="@+id/actionToggleXVals"
+        android:title="切换项">
+    </item>
+    <item
+        android:id="@+id/actionTogglePercent"
+        android:title="切换背景">
+    </item>
+    <item
+        android:id="@+id/actionToggleHole"
+        android:title="底盘效果">
+    </item>
+    <item
+        android:id="@+id/animateX"
+        android:title="按项展开效果">
+    </item>
+    <item
+        android:id="@+id/animateY"
+        android:title="按值展开效果">
+    </item>
+        <item
+        android:id="@+id/animateXY"
+        android:title="按值和项展开效果">
+    </item>
+    <item
+        android:id="@+id/actionDrawCenter"
+        android:title="图中的文字">
+    </item>
+    <item
+        android:id="@+id/actionSave"
+        android:title="保存为图片">
+    </item>
+
+</menu>

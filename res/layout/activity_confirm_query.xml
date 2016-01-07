@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+<include
+    layout="@layout/titlebar_query"
+    />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edt_keywords"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:background="@drawable/wo"
+            android:ems="10"
+            android:hint="输入验收单编号" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/edt_keywords"
+            android:src="@drawable/afg" />
+    </RelativeLayout>
+	
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button_select_style"
+        android:clickable="true"
+        android:gravity="center"
+        android:textSize="27dp"
+        android:textColor="#ffffff"
+        android:text="查找验收单" />
+
+</LinearLayout>

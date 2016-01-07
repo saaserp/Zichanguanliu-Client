@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginbg2"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context="com.qufei.login.LoginActivity" >
+
+    <include layout="@layout/titlebar_login" />
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/login_status"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_progress_signing_in"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- Login form -->
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="221dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:padding="0dp" >
+
+            <EditText
+                android:id="@+id/userID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wo"
+                android:hint="@string/prompt_email"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wo"
+                android:hint="@string/prompt_password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sign_in_button"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.03"
+                android:background="@drawable/button_select_style"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/action_sign_in_register"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/savePassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="记住密码" >
+                </CheckBox>
+                 <TextView
+                     android:id="@+id/msetting"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingLeft="20dp"
+                     android:textSize="16dp"
+                     android:text="系统设置"
+                     android:textColor="#0000ff"
+                      android:autoLink="web"
+                      android:textColorLink="@color/red"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

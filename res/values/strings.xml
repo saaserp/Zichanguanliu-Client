@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_versionName">1.9</string>
+    <string name="app_name">曲飞科技资产管理</string>
+    <string name="add_product_new">新建当前类别</string>
+    <string name="action_settings">无效菜单</string>
+    <string name="app_settings">系统设置</string>
+    <string name="ip">192.168.191.1</string>
+    <string name="httpport">80</string>
+    <string name="socketport">6000</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_1">资产查询</string>
+    <string name="menu_2">资产录入</string>
+    <string name="menu_3">财务对账</string>
+    <string name="menu_4">单据审核</string>
+    <string name="title_activity_query">QueryActivity</string>
+    <string name="main_context">资产管理客户端。</string>
+    <string name="main_title">曲飞科技</string>
+    <string name="scan_tips">资产二维码对准扫描框即可自动扫描</string>
+    <string name="title_activity_big_class">BigClassActivity</string>
+    <string name="title_activity_small_class">SmallClassActivity</string>
+    <string name="title_activity_add_product">AddProductActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_set_value">SetValueActivity</string>
+    <string name="title_activity_add_product_sub_item">AddProductSubItem</string>
+    <string name="title_activity_product_type">ProductTypeActivity</string>
+    <string name="title_activity_set_key_value">SetKeyValue</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_select_type">SelectTypeActivity</string>
+    <string name="title_activity_confirm">Confirm</string>
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">设置成功</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="title_activity_daishenghe">DaishengheActivity</string>
+    <string name="title_activity_diashenghe_son">DiashengheSonActivity</string>
+    <string name="title_activity_fenleihao">FenleihaoActivity</string>
+    <string name="title_activity_added_product">AddedProduct</string>
+    <string name="title_activity_app_setting">AppSetting</string>
+    <string name="title_activity_guozifenleihao">Guozifenleihao</string>   
+    <string name="title_activity_yanshoudan_list">YanshoudanListActivity</string>
+    <string name="zichanchaxun">查询本部门下的资产详情</string>
+    <string name="zichanluru">资产临时添加用于系统调用</string>
+    <string name="caiwuduizhang">财务对账人资产对账</string>
+    <string name="danjushenghe">审核员在此审核已提交的单据</string>
+    <string name="tuxinfenxi">用于资产以饼图、条形图查看</string>
+    <string name="shaomaqincha">用于手机扫描条形码清查设备</string>
+    <string name="gerenziliao">查看账户详细信息</string>
+    <string name="xitongshezi">设置系统参数</string>
+    <string name="title_activity_shengmingzhouqi">Shengmingzhouqi</string>
+
+</resources>
